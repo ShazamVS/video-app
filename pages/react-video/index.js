@@ -8,6 +8,7 @@ export default function Video({ videoUrl }) {
       playing={true}
       height="500px"
       width="500px"
+      muted={true}
     />
   );
 }

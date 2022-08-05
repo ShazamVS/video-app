@@ -8,6 +8,8 @@ export default function VideoJS({ videoUrl }) {
       data-setup="{}"
       height="500px"
       width="500px"
+      autoPlay="true"
+      muted="true"
     >
       <source src={videoUrl} type="video/mp4"></source>
     </video>
