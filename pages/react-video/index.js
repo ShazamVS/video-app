@@ -1,16 +1,7 @@
 import ReactPlayer from "react-player";
 
-export default function Video({ videoUrl }) {
-  return (
-    <ReactPlayer
-      url={videoUrl}
-      controls
-      playing={true}
-      height="500px"
-      width="500px"
-      muted={true}
-    />
-  );
+export default function VideoJS({ videoUrl }) {
+  return <ReactPlayer url={videoUrl} />;
 }
 
 export async function getStaticProps() {

@@ -1,8 +1,11 @@
+import videojs from "video.js";
+import "video.js/dist/video-js.css";
+
 export default function VideoJS({ videoUrl }) {
   return (
     <video
       id="my-player"
-      className="video-js"
+      className="video-js vjs-big-play-centered"
       controls
       preload="auto"
       data-setup="{}"
